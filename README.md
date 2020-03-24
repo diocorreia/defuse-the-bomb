@@ -1,5 +1,7 @@
 # [FEUP][MIEEC][SELE] Final Project: DEFUSE THE BOMB
-
+<p align="center">
+    <img text-align="center" src="https://i.imgur.com/62OK2zr.jpg" height="300"/> 
+</p>
 This project is composed by: an SPI library, a PCD8544 library and a small game-like demonstrator, called 'Defuse the BOMB' for the ATMega32 microcontroller. This project also includes a PCB design, in Arduino's Shield format, with all the required components for the demonstrator.
 
 ## Motivation
@@ -57,10 +59,7 @@ void PCD8544SendData(uint8_t data){
 
 ## DEFUSE THE BOMB - Demonstrator
 
-<img src="https://i.imgur.com/62OK2zr.jpg" height="160"/>
-<img src="https://i.imgur.com/ycz6VgL.jpg" height="160"/>
-<img src="https://i.imgur.com/awCuO76.jpg" height="160"/>
-<img src="https://i.imgur.com/ULM2cmb.jpg" height="160"/>
+<img src="https://i.imgur.com/62OK2zr.jpg" height="160"/>  <img src="https://i.imgur.com/ycz6VgL.jpg" height="160"/>  <img src="https://i.imgur.com/awCuO76.jpg" height="160"/>  <img src="https://i.imgur.com/ULM2cmb.jpg" height="160"/>
 
 To demonstratre the capabilities of our two libraries a mini-game was developed. 
 *DEFUSE THE BOMB* is a mini-game that uses the Nokia 5110 LCD Display and a set of three wires to simulate a bomb ready to explode. The game starts with a countdown clock. The user needs to disconnect the correct wire in order to stop the bomb from exploding, if the countdown reaches zero or two wrong wires are disconnected the bomb explodes and the game is over.
